@@ -1,0 +1,164 @@
+.wrapper {
+    width: 100%;
+    height: 100%;  
+}
+
+/*** Header Styles ***/
+header {
+    margin: auto;
+}
+
+header h1 {
+    font-size: 4rem;
+    font-family: "Julius Sans One";
+    font-weight: 600;
+    color: midnightblue;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+nav {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+nav a {
+    font-size: 1.25rem;
+    font-family: "Archivo Narrow";
+    color: gray;
+    padding: 2%;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: midnightblue;
+    transition: .75s ease-out;
+}
+
+/*** Body Styles ***/
+.about-section,
+.skills-section,
+.projects-section,
+.contact-section {
+    width: 65%;
+    margin: auto;
+}
+
+.section-header {
+    color: midnightblue;
+    font-size: 2rem;
+    font-family: "Julius Sans One";
+    margin-top: 5%;
+    margin-bottom: 2.5%;
+    padding-top: 5%;
+    border-top: 1px solid lightblue;
+    text-align: center;
+}
+
+.about-section p {
+    color: gray;
+    font-size: 1.15rem;
+    font-family: "Archivo Narrow";
+    
+}
+
+.social-links {
+    width: 100%;
+    text-align: center;
+}
+
+.social-links a {
+    width: 10%;
+    margin-top: 5%;
+    padding: auto;
+    color: midnightblue;
+    font-size: 1.75rem;
+}
+
+.social-links a:hover {
+    color: lightblue;
+    transition: .2s ease-out;
+}
+
+.skills-section ul li {
+    display: block;
+    color: gray;
+    font-size: 1.15rem;
+    font-family: 'Archivo Narrow';
+    margin-bottom: 2.5%;
+}
+
+.skills-section ul li:nth-child(odd) {
+    float: right;
+}
+
+.projects-section {
+    margin-bottom: 5%;
+}
+
+img {
+    width: 100%;
+    margin-top: 5%;
+    border: 1px solid lightblue;
+}
+
+img:hover {
+    opacity: 40%;
+    border: 1px solid black;
+    transition: .2s ease-out;
+}
+
+@media only screen and (min-width: 600px) {
+    header h1 {
+        font-size: 4.5rem;
+    }
+    
+    nav a {
+        font-size: 1.5rem;
+    }
+    
+    .about-section p,
+    .skills-section ul li {
+        font-size: 1.4rem;
+    }
+    
+    .social-links a {
+        font-size: 2.25rem;
+    }
+    
+    .section-header {
+        font-size: 2.5rem;
+    }
+    
+    img {
+        width: 42.5%;
+        margin: 2.5%;
+    }
+    
+    .projects {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1050px) {
+    .about-section p {
+        width: 50%;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .skills-section ul li {
+        width: 50%;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+

@@ -110,7 +110,7 @@ img:hover {
     transition: .2s ease-out;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 700px) {
     header h1 {
         font-size: 4.5rem;
     }
